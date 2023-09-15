@@ -122,7 +122,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 201 Created\", function () {\r",
+							"pm.test(\"Status code is 200 OK\", function () {\r",
 							"  pm.response.to.have.status(201);\r",
 							"});\r",
 							"\r",
@@ -266,7 +266,7 @@
 	"variable": [
 		{
 			"key": "Token",
-			"value": "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",
+			"value": "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",
 			"type": "string"
 		},
 		{
