@@ -65,4 +65,4 @@
 Альтернативный способ создания токена: [Creating a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
 После этого можно запускать запросы.  
-**ВАЖНО:** для корректной автоматической работы запросов *Rename issue* и *Lock issue* необходимо сначала как минимум один раз запустить запрос *Add new issue*.
+**ВАЖНО:** для корректной автоматической работы запросов *Rename issue* и *Lock issue* необходимо сначала как минимум один раз запустить запрос *Add new issue*. Альтернатива - самостоятельно заполните переменную `issueNum` номером существующей Issue в вашем репозитории.
