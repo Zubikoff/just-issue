@@ -56,4 +56,13 @@
   Проверка статус-кода ответа - по умолчанию ожидается код 204.
 
 ## Работа с коллекцией
-Для работы с коллекцией необходимо заполнить переменные коллекции `Token`, `owner` и `repo`. Если переменные заполнены корректными данными, можно запускать запросы.
+Для работы с коллекцией необходимо заполнить переменные коллекции `Token`, `owner` и `repo`.  
+Для заполнения переменной `owner` необходимо создать свой аккаунт на GitHub. Инструкцию, как это сделать, можно получить здесь: [Signing up for a new GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
+
+Далее необходимо создать свой репозиторий и поместить его название в переменную `repo`. Как создать репозиторий: [Create a repository](https://docs.github.com/en/get-started/quickstart/create-a-repo#create-a-repository)
+
+И последнее - создать Personal Access Token и заполнить им переменную `Token`. Как создать Personal Access Token: [Creating a fine-grained personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token)  
+Альтернативный способ создания токена: [Creating a personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
+
+После этого можно запускать запросы.  
+**ВАЖНО:** для корректной автоматической работы запросов *Rename issue* и *Lock issue* необходимо сначала как минимум один раз запустить запрос *Add new issue*.
